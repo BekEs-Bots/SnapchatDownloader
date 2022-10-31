@@ -14,7 +14,7 @@ class ENV_VARS(object):
     API_HASH = os.environ.get("API_HASH")
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    #AUTH_USER = int(os.environ.get("AUTH_USER", 5754571433))
+    #AUTH_USER = int(os.environ.get("AUTH_USER", 2067756032))
 
 
 Config = ENV_VARS
