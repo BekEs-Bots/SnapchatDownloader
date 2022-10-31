@@ -24,7 +24,7 @@ class Bot(Client):
     async def start(self):
         await super().start()
         me = await self.get_me()
-        un = '@' + me.username
+        un = 'BekEsDownlodSnapBot' + me.username
         LOGGER.info(
             f"Pyrogram v{__version__} (Layer {layer}) started on {un}.")
 
